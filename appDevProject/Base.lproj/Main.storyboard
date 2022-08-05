@@ -4,6 +4,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -1214,6 +1215,114 @@
             </objects>
             <point key="canvasLocation" x="-1588.4057971014495" y="-215.625"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="vs0-Bk-BlQ">
+            <objects>
+                <viewController id="XtV-G7-xqE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dB9-gO-kKm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="52D-gm-ffZ">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v2K-o6-Xyh">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your personal carbon footprint tracker" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IIq-4X-5O8">
+                                                <rect key="frame" x="40" y="31" width="335" height="123"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="34"/>
+                                                <color key="textColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-01 at 19.21.31" translatesAutoresizingMaskIntoConstraints="NO" id="8Z6-pF-010">
+                                                <rect key="frame" x="14" y="162" width="386" height="350"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kkK-bL-bq9">
+                                                <rect key="frame" x="40" y="538" width="335" height="477"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Your carbon footprint refers to the total amount of Carbon Dioxide that you have emitted due to the activities/actions you have taken. It is important because at this current moment in time, our world emits approximately nine billion tons of carbon dioxide each year. Half of these emissions are absorbed by the oceans and terrestrial biosphere, leaving the excess amount of approximately four billion tons of carbon dioxide to accumulate in the atmosphere. Normally the atmosphere allows energy from the sun to pass through without any issue, however with the amount of carbon dioxide emissions, these greenhouse gases have absorbed and trapped energy that the Earth would otherwise emit to space, thereby increasing the average global temperature. Our app gives you the opportunity to calculate your carbon footprint in a simple manner so that you can track it monthly! </string>
+                                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="19"/>
+                                                <color key="textColor" red="0.22887386909999999" green="0.38818607230000002" blue="0.11322258390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="All you have to do is answer a few short questions!" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rMn-1n-Luw">
+                                                <rect key="frame" x="40" y="1036" width="335" height="55"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="19"/>
+                                                <color key="textColor" red="0.22887386909999999" green="0.38818607230000002" blue="0.11322258390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tm8-5O-h7Y">
+                                                <rect key="frame" x="40" y="1294" width="335" height="93"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">2. What is your monthly gas bill? (Depending on the amount of people you travel/share a vehicle with, divide the amount by that number)</string>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VZX-Fo-5xU">
+                                                <rect key="frame" x="40" y="1229" width="335" height="34"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="G47-po-Mia">
+                                                <rect key="frame" x="40" y="1416" width="335" height="34"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1. What is your monthly electricity bill? (Depending on the amount of people you live with, divide the amount by that number)" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LMl-Ta-mDw">
+                                                <rect key="frame" x="40" y="1111" width="335" height="99"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3. What is your monthly oil bill? " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YOa-FE-zpd">
+                                                <rect key="frame" x="40" y="1489" width="265" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.58398045939999998" green="0.83771500509999997" blue="0.53876121619999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.58398045939999998" green="0.83771500509999997" blue="0.53876121619999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="v2K-o6-Xyh" secondAttribute="bottom" id="8xR-l7-r2v"/>
+                                    <constraint firstAttribute="trailing" secondItem="v2K-o6-Xyh" secondAttribute="trailing" id="aRz-e9-fBB"/>
+                                    <constraint firstItem="v2K-o6-Xyh" firstAttribute="leading" secondItem="52D-gm-ffZ" secondAttribute="leading" id="fBe-k0-2Nk"/>
+                                    <constraint firstItem="v2K-o6-Xyh" firstAttribute="top" secondItem="52D-gm-ffZ" secondAttribute="top" id="fU4-oM-KAk"/>
+                                    <constraint firstAttribute="trailing" secondItem="v2K-o6-Xyh" secondAttribute="trailing" id="fVR-MF-KiO"/>
+                                    <constraint firstAttribute="bottom" secondItem="v2K-o6-Xyh" secondAttribute="bottom" id="hmg-iF-Qjg"/>
+                                    <constraint firstItem="v2K-o6-Xyh" firstAttribute="leading" secondItem="52D-gm-ffZ" secondAttribute="leading" id="kPg-Wj-EKH"/>
+                                    <constraint firstItem="v2K-o6-Xyh" firstAttribute="top" secondItem="52D-gm-ffZ" secondAttribute="top" id="shk-yH-QRS"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="aSN-57-yyR"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="52D-gm-ffZ" firstAttribute="trailing" secondItem="aSN-57-yyR" secondAttribute="trailing" id="L1k-He-va1"/>
+                            <constraint firstItem="52D-gm-ffZ" firstAttribute="top" secondItem="dB9-gO-kKm" secondAttribute="top" id="auj-7G-YVS"/>
+                            <constraint firstItem="v2K-o6-Xyh" firstAttribute="height" secondItem="dB9-gO-kKm" secondAttribute="height" multiplier="2.23214" id="dQI-0h-Gr1"/>
+                            <constraint firstAttribute="bottom" secondItem="52D-gm-ffZ" secondAttribute="bottom" id="hqw-ff-fx4"/>
+                            <constraint firstItem="v2K-o6-Xyh" firstAttribute="width" secondItem="dB9-gO-kKm" secondAttribute="width" id="iwB-h2-mIu"/>
+                            <constraint firstItem="52D-gm-ffZ" firstAttribute="leading" secondItem="aSN-57-yyR" secondAttribute="leading" id="vnm-b3-ZlX"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="414" height="896"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DtJ-2d-Lq0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2425" y="714"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="nOH-Ae-KIa"/>
@@ -1221,6 +1330,7 @@
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Image from iOS" width="600" height="600"/>
+        <image name="Screen Shot 2022-08-01 at 19.21.31" width="534" height="535"/>
         <image name="Screen Shot 2022-08-03 at 20.56.31" width="380" height="208"/>
         <image name="africa xcode" width="690" height="717"/>
         <image name="antarctica xcode" width="850" height="760"/>
@@ -1229,5 +1339,8 @@
         <image name="north america xcode" width="709" height="518"/>
         <image name="oceania xcode" width="1024" height="673"/>
         <image name="south america xcode" width="510" height="620"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>
