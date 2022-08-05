@@ -1660,7 +1660,8 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vaC-CF-9Sd">
                                 <rect key="frame" x="45" y="546" width="74" height="76"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="👣"/>
                                 <connections>
                                     <action selector="Link7:" destination="3HU-Ey-awN" eventType="touchUpInside" id="Zf5-Sr-HTN"/>
                                 </connections>
@@ -1668,7 +1669,8 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mdn-Ti-qGU">
                                 <rect key="frame" x="161" y="601" width="94" height="76"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="👣  "/>
                                 <connections>
                                     <action selector="Link9:" destination="3HU-Ey-awN" eventType="touchUpInside" id="BbU-jt-rnj"/>
                                 </connections>
@@ -1676,7 +1678,8 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C6Z-U5-W58">
                                 <rect key="frame" x="271" y="674" width="114" height="76"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="👣    "/>
                                 <connections>
                                     <action selector="LInk11:" destination="3HU-Ey-awN" eventType="touchUpInside" id="6bU-PI-bCs"/>
                                 </connections>
@@ -1684,7 +1687,8 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r4e-fA-FM4">
                                 <rect key="frame" x="47" y="674" width="104" height="76"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="👣   "/>
                                 <connections>
                                     <action selector="Link10:" destination="3HU-Ey-awN" eventType="touchUpInside" id="3DS-kh-nwq"/>
                                 </connections>
@@ -1692,7 +1696,8 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sua-ki-Yfj">
                                 <rect key="frame" x="263" y="546" width="84" height="76"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="👣 "/>
                                 <connections>
                                     <action selector="Link8:" destination="3HU-Ey-awN" eventType="touchUpInside" id="JVI-3m-qAf"/>
                                 </connections>
@@ -1700,23 +1705,17 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AUA-DE-AWM">
                                 <rect key="frame" x="169" y="234" width="78" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="🌳 "/>
                                 <connections>
                                     <action selector="Link2:" destination="3HU-Ey-awN" eventType="touchUpInside" id="nbk-Ep-Tnh"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4dw-Do-ygL">
-                                <rect key="frame" x="273" y="309" width="112" height="67"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="Link6:" destination="3HU-Ey-awN" eventType="touchUpInside" id="1aG-6d-5zb"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kM9-Un-Y4K">
                                 <rect key="frame" x="169" y="309" width="104" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="🌳    "/>
                                 <connections>
                                     <action selector="Link5:" destination="3HU-Ey-awN" eventType="touchUpInside" id="UNc-Z1-52Q"/>
                                 </connections>
@@ -1724,7 +1723,8 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dPm-D2-Rth">
                                 <rect key="frame" x="47" y="309" width="95" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="🌳   "/>
                                 <connections>
                                     <action selector="Link4:" destination="3HU-Ey-awN" eventType="touchUpInside" id="THg-qS-RsE"/>
                                 </connections>
@@ -1732,7 +1732,8 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jlQ-8F-4tR">
                                 <rect key="frame" x="273" y="234" width="87" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="🌳  "/>
                                 <connections>
                                     <action selector="Link3:" destination="3HU-Ey-awN" eventType="touchUpInside" id="wAm-hF-JrW"/>
                                 </connections>
@@ -1761,6 +1762,15 @@
                                     <segue destination="d7C-47-tCx" kind="show" id="6bQ-J4-bFM"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4dw-Do-ygL">
+                                <rect key="frame" x="258" y="309" width="112" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="🌳"/>
+                                <connections>
+                                    <action selector="Link6:" destination="3HU-Ey-awN" eventType="touchUpInside" id="1aG-6d-5zb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dG9-Df-nnj"/>
                         <color key="backgroundColor" red="0.58398045939999998" green="0.83771500509999997" blue="0.53876121619999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1773,7 +1783,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="UnL-l1-gGi"/>
+        <segue reference="6bQ-J4-bFM"/>
         <segue reference="Igi-HW-O9Z"/>
     </inferredMetricsTieBreakers>
     <resources>
