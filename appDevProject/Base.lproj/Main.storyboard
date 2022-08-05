@@ -556,18 +556,18 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Climate change issues around the world" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B4x-1s-vQr">
-                                <rect key="frame" x="65" y="42" width="284" height="162"/>
+                                <rect key="frame" x="35" y="20" width="344" height="129"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="34"/>
                                 <color key="textColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-03 at 20.56.31" translatesAutoresizingMaskIntoConstraints="NO" id="vii-TC-tzL">
-                                <rect key="frame" x="20" y="212" width="374" height="218"/>
+                                <rect key="frame" x="20" y="157" width="374" height="218"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LBk-Pc-5eR">
-                                <rect key="frame" x="77" y="251" width="32" height="30"/>
+                                <rect key="frame" x="77" y="199" width="32" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <state key="normal" title="📍"/>
@@ -576,7 +576,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pzL-1g-966">
-                                <rect key="frame" x="115" y="324" width="32" height="30"/>
+                                <rect key="frame" x="117" y="272" width="32" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <state key="normal" title="📍"/>
@@ -585,7 +585,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yiT-7f-5bW">
-                                <rect key="frame" x="227" y="383" width="32" height="30"/>
+                                <rect key="frame" x="244" y="330" width="32" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <state key="normal" title="📍"/>
@@ -594,7 +594,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="djX-98-GJf">
-                                <rect key="frame" x="317" y="324" width="32" height="30"/>
+                                <rect key="frame" x="330" y="272" width="32" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <state key="normal" title="📍"/>
@@ -603,7 +603,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Th-ym-Hel">
-                                <rect key="frame" x="207" y="286" width="32" height="30"/>
+                                <rect key="frame" x="207" y="249" width="32" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <state key="normal" title="📍"/>
@@ -611,17 +611,8 @@
                                     <segue destination="0T6-N8-ze6" kind="show" id="Q8j-MH-Flg"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cY5-mT-rCe">
-                                <rect key="frame" x="273" y="250" width="32" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <state key="normal" title="📍"/>
-                                <connections>
-                                    <segue destination="M4y-yN-Ngc" kind="show" id="MPN-hr-KOk"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Idn-ae-Zlt">
-                                <rect key="frame" x="207" y="212" width="32" height="44"/>
+                                <rect key="frame" x="207" y="157" width="32" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <state key="normal" title="📍"/>
@@ -629,6 +620,23 @@
                                     <segue destination="LIQ-zv-V7J" kind="show" id="0UN-ME-urR"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cY5-mT-rCe">
+                                <rect key="frame" x="277" y="198" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="📍"/>
+                                <connections>
+                                    <segue destination="M4y-yN-Ngc" kind="show" id="MPN-hr-KOk"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qpB-Q9-b19">
+                                <rect key="frame" x="35" y="383" width="354" height="345"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">Climate change is caused by an increase in atmospheric gasses such as carbon dioxide and other greenhouse gases. As the "source" of greenhouse gases, both anthropogenic and natural processes are responsible for these carbon dioxide emissions. As a "sink" for greenhouse gases, however, these gases are absorbed by the oceans, plants, and even some ice caps. However, because of excessive anthropogenic emissions, more greenhouse gases are released into the atmosphere, trapping more solar energy and raising the earth's surface temperature—a phenomenon known as the greenhouse effect.</mutableString>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                <color key="textColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="K5c-EN-S37"/>
                         <color key="backgroundColor" red="0.85098039219999999" green="0.92941176469999998" blue="0.57254901960000004" alpha="1" colorSpace="calibratedRGB"/>
@@ -646,14 +654,106 @@
                     <view key="view" contentMode="scaleToFill" id="V4C-u9-IF2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Con-1g-08a">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w5E-84-ckS">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Climate change issues in Africa" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3gE-8U-l2n">
+                                                <rect key="frame" x="51" y="22" width="313" height="95"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="34"/>
+                                                <color key="textColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="africa xcode" translatesAutoresizingMaskIntoConstraints="NO" id="lrM-At-Mpe">
+                                                <rect key="frame" x="51" y="125" width="313" height="313"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8cC-3e-d9H">
+                                                <rect key="frame" x="51" y="457" width="313" height="361"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Despite having a low greenhouse gas emission contribution, Africa continues to be the continent most susceptible to the effects of climate change in all scenarios with temperatures exceeding 1.5 degrees Celsius. Africa faces exponential collateral damage, posing systemic risks to its economies, infrastructure investments, water and food systems, public health, agriculture, and livelihoods, threatening to undo its modest development gains and slip into higher levels of extreme poverty despite having contributed the least to global warming and having the lowest emission levels. The following factors render the continent more vulnerable:</string>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                                <color key="textColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hs0-Rs-mFK">
+                                                <rect key="frame" x="51" y="826" width="313" height="206"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">* 95% of all rain-fed agriculture worldwide is practised in Sub-Saharan Africa. 
+* Other weather-sensitive activities, such as herding and fishing, as well as the significant contribution of agriculture to GDP and employment, increase susceptibility and result in decreased income and heightened food insecurity. </string>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                                <color key="textColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BEk-v9-Ybg">
+                                                <rect key="frame" x="51" y="1040" width="313" height="430"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Africa faces a serious threat when it comes to attaining the Sustainable Development Goals due to climate change. The severe effects of a temperature increase above 1.5°C were highlighted in the 2018 Intergovernmental Panel on Climate Change (IPCC) assessment, particularly for Africa. According to studies commissioned by UNEP, if the increase in global temperature is kept within 2°C above preindustrial levels then by 2050, the cost of adaptation to climate change in Africa might exceed $50 billion annually.  All nations committed to working together to combat climate change under the Paris Agreement adopted at COP21, which limits global temperature increases to no more than 2°C above pre-industrial levels. </string>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                                <color key="textColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v18-UE-efN">
+                                                <rect key="frame" x="51" y="1478" width="313" height="423"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">In their Nationally Determined Contributions (NDCs) to the Paris Agreement, African nations set out ambitious goals for developing low-carbon economies and economies that are climate resilient. Out of the 54 African nations, 49 had ratified their NDCs as of November 2019. This is extremely vital, as the need for adaptation to the adverse consequences of climate change in Africa is urgent. However, the continent will need investments of over 3 trillion US Dollars in mitigation and adaptation by 2030 in order to implement its NDC’s. Therefore, the continent’s commitments to make the country and economy more climate–resilient are conditional upon receiving an adequate amount of financial support. </string>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                                <color key="textColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ard-b4-ycw">
+                                                <rect key="frame" x="31" y="1923" width="132" height="46"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                <state key="normal" title="go back">
+                                                    <color key="titleColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="20"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <segue destination="gJN-Tg-D6A" kind="show" id="HmH-CJ-O9m"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.20392156859999999" green="0.62745098040000002" blue="0.64313725489999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="2000" id="npp-Rq-lnz"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="w5E-84-ckS" secondAttribute="bottom" id="arV-q8-KmY"/>
+                                    <constraint firstItem="w5E-84-ckS" firstAttribute="top" secondItem="Con-1g-08a" secondAttribute="top" id="ei3-mD-CJQ"/>
+                                    <constraint firstItem="w5E-84-ckS" firstAttribute="leading" secondItem="Con-1g-08a" secondAttribute="leading" id="mgU-pa-AFr"/>
+                                    <constraint firstAttribute="trailing" secondItem="w5E-84-ckS" secondAttribute="trailing" id="uzx-XE-0C4"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Q4o-fh-iSf"/>
                         <color key="backgroundColor" red="0.20392156859999999" green="0.62745098040000002" blue="0.64313725489999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Con-1g-08a" firstAttribute="leading" secondItem="Q4o-fh-iSf" secondAttribute="leading" id="ENR-fz-y27"/>
+                            <constraint firstAttribute="bottom" secondItem="Con-1g-08a" secondAttribute="bottom" id="MYM-Ce-6OM"/>
+                            <constraint firstItem="w5E-84-ckS" firstAttribute="height" secondItem="V4C-u9-IF2" secondAttribute="height" multiplier="2.3753" id="TvR-jP-Wvc"/>
+                            <constraint firstItem="Con-1g-08a" firstAttribute="top" secondItem="Q4o-fh-iSf" secondAttribute="top" id="XpR-3E-8mp"/>
+                            <constraint firstItem="Con-1g-08a" firstAttribute="trailing" secondItem="Q4o-fh-iSf" secondAttribute="trailing" id="kej-1O-4q4"/>
+                            <constraint firstItem="w5E-84-ckS" firstAttribute="width" secondItem="V4C-u9-IF2" secondAttribute="width" id="oze-b3-EQo"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="kBg-m9-gqQ"/>
+                    <size key="freeformSize" width="414" height="896"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t8O-ds-oqz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2299" y="94"/>
+            <point key="canvasLocation" x="2298.5507246376815" y="93.75"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tYV-XD-HCM">
@@ -688,14 +788,113 @@
                     <view key="view" contentMode="scaleToFill" id="odY-94-n2u">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vlr-ct-SNV">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pf9-41-Tf9">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2100"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Climate change issues in Oceania" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GSz-cL-gAd">
+                                                <rect key="frame" x="57" y="23" width="301" height="97"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="34"/>
+                                                <color key="textColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oceania xcode" translatesAutoresizingMaskIntoConstraints="NO" id="G6m-KY-g7g">
+                                                <rect key="frame" x="43" y="139" width="329" height="224"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ss2-jh-TkK">
+                                                <rect key="frame" x="43" y="384" width="329" height="299"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Due to the fact that the Oceania region is made up of several islands that are all encircled by and connected by the sea, and because the majority of Oceania's countries are coastal ones, its citizens strongly depend on seawater as a source for their economy and way of life. Sea level rise and rising sea temperatures as a result of climate change pose a serious hazard, particularly to those who live in low-lying and vulnerable places. The ecology, plants, and animals, as well as human livelihood and economy, would all be impacted by these climate-related changes.</string>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                                <color key="textColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="400-xC-Se2">
+                                                <rect key="frame" x="43" y="702" width="329" height="402"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">According to research, the Pacific area is seeing a quicker rate of sea level rise than the rest of the world. Small Pacific islands like Tuvalu, Kiribati, and the Marshall Islands are beginning to sink and disappear under the waves. The livelihood of those who live on islands and coastal lines is being threatened by the erosion of coastal land and loss of infrastructure. Atolls are being abandoned as a result of coastal erosion in low-lying places, like in Tuvalu. Freshwater and agricultural land are both being lost as a result of saltwater intrusion. Sugar cane yields in Fiji are falling as the country's salinity levels rise. In addition to harming the economy, dirty water and declining agricultural fitness can have an effect on people's health.</string>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                                <color key="textColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oE0-Rv-Gxk">
+                                                <rect key="frame" x="43" y="1112" width="329" height="251"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">The people of the region are particularly vulnerable to sea-level rise as it is threatening the island economy and habitability because of their geographical location with limited land space and resources. Migration is therefore without a doubt the best adaptive tactic. However, significant social and cultural issues also result from this forced migration known as climate migration, which all started as a result of climate change.</string>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                                <color key="textColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2T3-p6-Bi9">
+                                                <rect key="frame" x="43" y="1371" width="329" height="424"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">When a person's existing residence becomes uninhabitable due to climate change, they are compelled to relocate. Conflicts of all kinds could develop as a result of climate migration. Even worse, these disagreements can result in intergroup/domestic violence and can be catastrophic. Some confrontations begin in adjacent communities, the home, or even on a national scale. For instance, dwellings and food gardens of migrants are demolished, young migrants have been beaten, and some women have been sexually assaulted. For instance, because of a lack of water, neighbours in Kiribati have invaded one other's land. A lack of governance and adaptation strategy in managing the community and disseminating information contributes to these tensions and potentially violent actions.</string>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                                <color key="textColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dNC-iG-lgh">
+                                                <rect key="frame" x="43" y="1803" width="329" height="200"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Mitigating and adapting to the effects of climate change on the continent involves the participation and cooperation of all communities, governments, and other institutions. The head of communities might help the government persuade Oceania's citizens to combat and adapt to these effects of climate change in order to build a more climate-resilient economy.</string>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                                <color key="textColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jea-04-uYR">
+                                                <rect key="frame" x="43" y="2022" width="136" height="46"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                <state key="normal" title="go back">
+                                                    <color key="titleColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="20"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <segue destination="gJN-Tg-D6A" kind="show" id="VXQ-sI-gyZ"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.1176470588" green="0.37647058820000001" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="2100" id="Bhd-lL-EMV"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="pf9-41-Tf9" secondAttribute="trailing" id="Xc0-1R-oDf"/>
+                                    <constraint firstItem="pf9-41-Tf9" firstAttribute="leading" secondItem="Vlr-ct-SNV" secondAttribute="leading" id="caX-s8-SSk"/>
+                                    <constraint firstItem="pf9-41-Tf9" firstAttribute="top" secondItem="Vlr-ct-SNV" secondAttribute="top" id="joI-gE-3ny"/>
+                                    <constraint firstAttribute="bottom" secondItem="pf9-41-Tf9" secondAttribute="bottom" id="x7x-fD-MfZ"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="ROu-ZV-Yhi"/>
                         <color key="backgroundColor" red="0.1176470588" green="0.37647058820000001" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Vlr-ct-SNV" firstAttribute="leading" secondItem="ROu-ZV-Yhi" secondAttribute="leading" id="Vjb-Yz-jfh"/>
+                            <constraint firstItem="Vlr-ct-SNV" firstAttribute="top" secondItem="ROu-ZV-Yhi" secondAttribute="top" id="WTR-VE-2mg"/>
+                            <constraint firstItem="Vlr-ct-SNV" firstAttribute="trailing" secondItem="ROu-ZV-Yhi" secondAttribute="trailing" id="Z67-My-I2q"/>
+                            <constraint firstItem="pf9-41-Tf9" firstAttribute="height" secondItem="odY-94-n2u" secondAttribute="height" multiplier="2.49406" id="d9P-Mw-12F"/>
+                            <constraint firstAttribute="bottom" secondItem="Vlr-ct-SNV" secondAttribute="bottom" id="nMr-jF-ID8"/>
+                            <constraint firstItem="pf9-41-Tf9" firstAttribute="width" secondItem="odY-94-n2u" secondAttribute="width" id="taA-vl-Rdd"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="u6L-4j-HKF"/>
+                    <size key="freeformSize" width="414" height="896"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n0L-r3-9pR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="138" y="931"/>
+            <point key="canvasLocation" x="137.68115942028987" y="930.80357142857133"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="L1K-gC-Sy3">
@@ -704,14 +903,97 @@
                     <view key="view" contentMode="scaleToFill" id="Kug-8R-G7z">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tT5-mT-WPy">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QXW-Ye-9Qw">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2200"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asia xcode" translatesAutoresizingMaskIntoConstraints="NO" id="eft-cK-NX8">
+                                                <rect key="frame" x="49" y="151" width="316" height="287"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Bc-hP-TRi">
+                                                <rect key="frame" x="51" y="461" width="316" height="521"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Asia is, in many respects, in the forefront of a changing climate. Asian societies and economies will become more vulnerable to climate risk without adaptation and mitigation because many low-lying coastal cities are exposed to flood and typhoon risk, dramatic increases in heat and humidity are anticipated throughout the region, and extreme precipitation is forecast in some areas but drought is anticipated in others. Similarly to the African Continent, Asia may experience more negative effects than other places in various respects. According to RCP 8.5, by 2050, portions of Asia may experience drought, rising average temperatures, deadly heat waves, extreme precipitation events, catastrophic hurricanes, and changes in water availability.</string>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="19"/>
+                                                <color key="textColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wk7-2f-ld8">
+                                                <rect key="frame" x="51" y="1020" width="316" height="699"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">By 2050, between 600 million and one billion people in Asia will reside in regions where there is a nonzero yearly likelihood of experiencing fatal heat waves, according to RCP 8.5. With a global total of between 700 million and 1.2 billion, this means that the majority of these individuals are located in Asia. For Asia, the likelihood of experiencing a fatal heat wave at least once during the decade starting in 2050 might rise to 80%. Moreover by 2050, the average loss of outdoor working hours in Asia would be between $2.8 trillion and $4.7 trillion annually. This is because of rising temperatures and humidity, which make it harder for people to work outdoors and necessitate more frequent breaks. More than two thirds of the annual global GDP impact is attributable to the Asian GDP that is at danger. And last, by 2050, riverine flooding is predicted to cause over $1.2 trillion in capital stock in Asia to be damaged annually, which is similar to about 75% of the global impact.</string>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="19"/>
+                                                <color key="textColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KQw-3W-x6d">
+                                                <rect key="frame" x="51" y="1741" width="316" height="281"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Asia is in a good position to tackle these issues and seize the benefits of efficiently managing climate risk. In many places of Asia, infrastructure and urban areas are still being developed, giving the area the ability to make sure that what is created is more robust and better able to handle increased risk so that they can create a climate–resilient economy.</string>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="19"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bHM-S2-kU8">
+                                                <rect key="frame" x="27" y="2063" width="164" height="70"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                <state key="normal" title="go back">
+                                                    <color key="titleColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <segue destination="gJN-Tg-D6A" kind="show" id="gIM-Og-VgX"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Climate change issues in Asia" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8le-D6-UR1">
+                                                <rect key="frame" x="51" y="40" width="316" height="103"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="34"/>
+                                                <color key="textColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.1019607843" green="0.45882352939999999" blue="0.62352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="2200" id="bc5-Co-K7E"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="QXW-Ye-9Qw" firstAttribute="top" secondItem="tT5-mT-WPy" secondAttribute="top" id="Cfq-ff-uAk"/>
+                                    <constraint firstAttribute="trailing" secondItem="QXW-Ye-9Qw" secondAttribute="trailing" id="Z7M-EL-j91"/>
+                                    <constraint firstAttribute="bottom" secondItem="QXW-Ye-9Qw" secondAttribute="bottom" id="dIc-KH-4nm"/>
+                                    <constraint firstItem="QXW-Ye-9Qw" firstAttribute="leading" secondItem="tT5-mT-WPy" secondAttribute="leading" id="zcw-aN-dO8"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="h0v-JE-auj"/>
                         <color key="backgroundColor" red="0.1019607843" green="0.45882352939999999" blue="0.62352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="QXW-Ye-9Qw" firstAttribute="width" secondItem="Kug-8R-G7z" secondAttribute="width" id="MU0-ye-kUb"/>
+                            <constraint firstItem="tT5-mT-WPy" firstAttribute="leading" secondItem="h0v-JE-auj" secondAttribute="leading" id="Qhc-S8-4VM"/>
+                            <constraint firstItem="QXW-Ye-9Qw" firstAttribute="height" secondItem="Kug-8R-G7z" secondAttribute="height" multiplier="2.61283" id="RZI-h2-QuG"/>
+                            <constraint firstAttribute="bottom" secondItem="tT5-mT-WPy" secondAttribute="bottom" id="ki2-us-yjP"/>
+                            <constraint firstItem="tT5-mT-WPy" firstAttribute="trailing" secondItem="h0v-JE-auj" secondAttribute="trailing" id="lBe-Kb-yZF"/>
+                            <constraint firstItem="tT5-mT-WPy" firstAttribute="top" secondItem="h0v-JE-auj" secondAttribute="top" id="py9-Uq-fhh"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="SO8-Sf-E0E"/>
+                    <size key="freeformSize" width="414" height="896"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jel-Fx-F3O" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1216" y="931"/>
+            <point key="canvasLocation" x="1214.4927536231885" y="930.80357142857133"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ndY-Wa-Tgt">
@@ -720,25 +1002,128 @@
                     <view key="view" contentMode="scaleToFill" id="pgV-Jd-11h">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xqB-SD-AEd">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hAt-cL-Io8">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2200"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Climate change issues in Antarctica" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JcW-b7-5jf">
+                                                <rect key="frame" x="51" y="39" width="312" height="97"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="34"/>
+                                                <color key="textColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="antarctica xcode" translatesAutoresizingMaskIntoConstraints="NO" id="ms1-wp-Ri3">
+                                                <rect key="frame" x="44" y="144" width="326" height="306"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9dR-bw-ObI">
+                                                <rect key="frame" x="44" y="480" width="326" height="144"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">The Antarctic Peninsula has experienced a rise in air temperature of 3°C. While it might not seem like much, the Intergovernmental Panel on Climate Change (IPCC) reports that it is 5 times the average pace of global warming.</string>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                                <color key="textColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KUQ-fN-Bwk">
+                                                <rect key="frame" x="44" y="645" width="326" height="390"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">The west coast of the Antarctic Peninsula has experienced one of the planet's fastest rates of warming during the past 50 years. The Southern Ocean has also experienced warming, so it's not just the land. Since 1955, the upper ocean's temperature to the west of the Antarctic Peninsula has risen by more than 1°C. It is now known that the Antarctic Circumpolar Current is warming faster than the entire world's ocean. Studying climate change in Antarctica is crucial because it helps scientists anticipate future climate change more precisely and inform decision-makers in politics and policy. The physical and living environment of Antarctica are changing as a result of the warming of the Antarctic Peninsula.</string>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                                <color key="textColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LQg-cI-77w">
+                                                <rect key="frame" x="44" y="1054" width="326" height="287"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">As the sea ice conditions vary, so has the location of penguin colonies. Plant colonization has expanded as a result of perennial snow and ice cover melting. Reduced sea ice cover may be linked to a long-term drop in Antarctic krill population in the Southern Ocean's SW Atlantic sector. The Peninsula's ice cover has seen significant alterations. In recent years, it has been noted that numerous glaciers have receded and that some of the ice shelves that once surrounded the Peninsula have totally disintegrated.</string>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                                <color key="textColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XK1-nW-wEN">
+                                                <rect key="frame" x="44" y="1360" width="326" height="269"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">A grounded ice sheet's floating extensions are known as ice shelves. The Ronne-Filchner, one of the biggest ice shelves, spans a region just slightly smaller than Spain. The ice shelf can only withstand a certain quantity of meltwater each summer before it begins to deteriorate and retreat. The Antarctic Peninsula's climate has warmed by 3°C, causing the once-steady ice shelves to retreat. This represents a loss of 25,000 km^2 of ice shelf during the 1950s.</string>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                                <color key="textColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="am4-71-YZX">
+                                                <rect key="frame" x="44" y="1653" width="326" height="389"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">The effects of climate change are not limited to the coastlines of the cold continent of Antarctica, despite the fact that it is thousands of miles distant from most of us. Scientists are concerned that the water currently kept in land-based ice (ice sheets, but not ice shelves) may melt and cause the sea level to increase. Sea level has been increasing over the past century and is currently rising at a pace of 3mm per year, according to satellite measurements going back to the early 1990s. The Intergovernmental Panel on Climate Change (IPCC), however, is presently unable to establish with certainty what impact the melting of ice sheets will have on sea level during the coming years. </string>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                                <color key="textColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G4x-nG-ecu">
+                                                <rect key="frame" x="30" y="2079" width="159" height="59"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                <state key="normal" title="go back">
+                                                    <color key="titleColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="20"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <segue destination="gJN-Tg-D6A" kind="show" id="eck-Ne-h3N"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.086274509799999996" green="0.54117647059999996" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="2200" id="pX6-r9-tsh"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="hAt-cL-Io8" secondAttribute="bottom" id="Jc0-cf-r7u"/>
+                                    <constraint firstItem="hAt-cL-Io8" firstAttribute="top" secondItem="xqB-SD-AEd" secondAttribute="top" id="Lig-e6-Pqj"/>
+                                    <constraint firstAttribute="trailing" secondItem="hAt-cL-Io8" secondAttribute="trailing" id="dP2-EF-yg3"/>
+                                    <constraint firstItem="hAt-cL-Io8" firstAttribute="leading" secondItem="xqB-SD-AEd" secondAttribute="leading" id="pcW-dS-gNN"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="7tN-0h-5UZ"/>
                         <color key="backgroundColor" red="0.086274509799999996" green="0.54117647059999996" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="xqB-SD-AEd" secondAttribute="bottom" id="7Oh-5d-o6G"/>
+                            <constraint firstItem="xqB-SD-AEd" firstAttribute="leading" secondItem="7tN-0h-5UZ" secondAttribute="leading" id="8HG-sf-GYR"/>
+                            <constraint firstItem="hAt-cL-Io8" firstAttribute="height" secondItem="pgV-Jd-11h" secondAttribute="height" multiplier="2.61283" id="Tku-yC-U6f"/>
+                            <constraint firstItem="xqB-SD-AEd" firstAttribute="trailing" secondItem="7tN-0h-5UZ" secondAttribute="trailing" id="b8F-NY-oA8"/>
+                            <constraint firstItem="hAt-cL-Io8" firstAttribute="width" secondItem="pgV-Jd-11h" secondAttribute="width" id="nVK-C7-TR6"/>
+                            <constraint firstItem="xqB-SD-AEd" firstAttribute="top" secondItem="7tN-0h-5UZ" secondAttribute="top" id="zNK-tL-tup"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="xG8-Lc-TcE"/>
+                    <size key="freeformSize" width="414" height="896"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vez-K6-GKF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2299" y="931"/>
+            <point key="canvasLocation" x="2298.5507246376815" y="930.80357142857133"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Igi-HW-O9Z"/>
+        <segue reference="VXQ-sI-gyZ"/>
         <segue reference="K4p-Sd-pT9"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Image from iOS" width="600" height="600"/>
         <image name="Screen Shot 2022-08-03 at 20.56.31" width="380" height="208"/>
+        <image name="africa xcode" width="690" height="717"/>
+        <image name="antarctica xcode" width="850" height="760"/>
+        <image name="asia xcode" width="1000" height="767"/>
         <image name="europe xcode" width="2000" height="1432"/>
         <image name="north america xcode" width="709" height="518"/>
+        <image name="oceania xcode" width="1024" height="673"/>
         <image name="south america xcode" width="510" height="620"/>
     </resources>
 </document>
