@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="d7C-47-tCx">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
@@ -325,37 +325,31 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="appDevProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wV2-Ot-ggs">
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wV2-Ot-ggs">
                                 <rect key="frame" x="0.0" y="64" width="414" height="44"/>
                                 <items>
                                     <navigationItem id="mAh-yt-Cfe">
                                         <barButtonItem key="leftBarButtonItem" style="plain" id="Cqu-Mx-vRf">
                                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="jSB-e3-GqV">
-                                                <rect key="frame" x="20" y="13" width="164" height="30"/>
+                                                <rect key="frame" x="20" y="7" width="164" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Issues around the world">
                                                     <color key="titleColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                             </button>
-                                            <connections>
-                                                <segue destination="gJN-Tg-D6A" kind="show" id="nOH-Ae-KIa"/>
-                                            </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" style="plain" id="Heg-el-hpo">
                                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="nIN-1l-2hg">
-                                                <rect key="frame" x="246" y="13" width="148" height="30"/>
+                                                <rect key="frame" x="246" y="7" width="148" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Get involved and help">
                                                     <color key="titleColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                             </button>
-                                            <connections>
-                                                <segue destination="3HU-Ey-awN" kind="show" id="m1b-bi-ZYX"/>
-                                            </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
@@ -369,23 +363,20 @@
                                     <navigationItem id="DIv-5I-RsK">
                                         <nil key="title"/>
                                         <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="ICM-Lt-XfL">
-                                            <rect key="frame" x="124" y="13" width="166" height="30"/>
+                                            <rect key="frame" x="124" y="7" width="166" height="30"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <state key="normal" title="Carbon footprint tracker">
                                                 <color key="titleColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </state>
-                                            <connections>
-                                                <segue destination="E7W-lY-ngm" kind="show" id="FhQ-dn-buU"/>
-                                            </connections>
                                         </button>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cui-OI-dYd">
-                                <rect key="frame" x="0.0" y="152" width="414" height="690"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cui-OI-dYd">
+                                <rect key="frame" x="0.0" y="152" width="414" height="744"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NRe-kE-mXt">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2500"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NRe-kE-mXt">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2660.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Conserv" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sZK-Qy-hvC">
                                                 <rect key="frame" x="131" y="21" width="123" height="40"/>
@@ -461,9 +452,6 @@
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.59999999999999998" green="0.85098039219999999" blue="0.54901960780000003" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="2500" id="Pwl-VL-YGC"/>
-                                        </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
@@ -496,7 +484,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="93.75"/>
+            <point key="canvasLocation" x="3261" y="94"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="19B-mU-zBl">
@@ -519,7 +507,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="K4p-Sd-pT9"/>
+                                    <segue destination="d7C-47-tCx" kind="show" id="3L5-kV-kv2"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Climate change issues around the world" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B4x-1s-vQr">
@@ -726,14 +714,235 @@
                     <view key="view" contentMode="scaleToFill" id="X9M-z3-nX0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eht-Vc-zPu">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xbw-hR-InR">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2750"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2KZ-81-FFL">
+                                                <rect key="frame" x="45" y="2665" width="46" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <segue destination="d7C-47-tCx" kind="show" id="UnL-l1-gGi"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.46274509800000002" green="0.7843137255" blue="0.57647058819999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="2750" id="yDf-YK-oxl"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Xbw-hR-InR" firstAttribute="top" secondItem="eht-Vc-zPu" secondAttribute="top" id="7fH-2s-lDk"/>
+                                    <constraint firstItem="Xbw-hR-InR" firstAttribute="leading" secondItem="eht-Vc-zPu" secondAttribute="leading" id="Isi-ki-ZNO"/>
+                                    <constraint firstAttribute="trailing" secondItem="Xbw-hR-InR" secondAttribute="trailing" id="JSe-EH-Rk4"/>
+                                    <constraint firstAttribute="bottom" secondItem="Xbw-hR-InR" secondAttribute="bottom" id="aFK-fZ-rAj"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="lJd-ML-cWm"/>
                         <color key="backgroundColor" red="0.46274509800000002" green="0.7843137255" blue="0.57647058819999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="eht-Vc-zPu" firstAttribute="trailing" secondItem="lJd-ML-cWm" secondAttribute="trailing" id="IUh-J5-OPn"/>
+                            <constraint firstItem="eht-Vc-zPu" firstAttribute="top" secondItem="lJd-ML-cWm" secondAttribute="top" id="M3a-Gf-LXA"/>
+                            <constraint firstAttribute="bottom" secondItem="eht-Vc-zPu" secondAttribute="bottom" id="MAC-WD-oJt"/>
+                            <constraint firstItem="Xbw-hR-InR" firstAttribute="height" secondItem="X9M-z3-nX0" secondAttribute="height" multiplier="3.26603" id="XJ5-ma-qNz"/>
+                            <constraint firstItem="Xbw-hR-InR" firstAttribute="width" secondItem="X9M-z3-nX0" secondAttribute="width" id="cww-BF-lOV"/>
+                            <constraint firstItem="eht-Vc-zPu" firstAttribute="leading" secondItem="lJd-ML-cWm" secondAttribute="leading" id="hHy-i6-gym"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="vwG-XU-MHI"/>
+                    <size key="freeformSize" width="414" height="896"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gM1-DI-xCi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1588.4057971014495" y="714.50892857142856"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="baO-ma-zLb">
+            <objects>
+                <viewController id="d7C-47-tCx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eUK-xr-vM2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="25F-gS-XFl">
+                                <rect key="frame" x="0.0" y="7" width="414" height="56"/>
+                                <items>
+                                    <navigationItem id="Fhg-im-7iX">
+                                        <nil key="title"/>
+                                        <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="btH-42-H3F">
+                                            <rect key="frame" x="70" y="13" width="274" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" title="Climate change issues around the world">
+                                                <color key="titleColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </state>
+                                            <connections>
+                                                <segue destination="gJN-Tg-D6A" kind="show" id="l1U-66-YcT"/>
+                                            </connections>
+                                        </button>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b7x-vP-jL9">
+                                <rect key="frame" x="0.0" y="63" width="414" height="56"/>
+                                <items>
+                                    <navigationItem id="fKz-0A-WQz">
+                                        <nil key="title"/>
+                                        <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="Dyh-vo-2eB">
+                                            <rect key="frame" x="100.5" y="13" width="213" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" title="Calculate your carbon footprint">
+                                                <color key="titleColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </state>
+                                            <connections>
+                                                <segue destination="E7W-lY-ngm" kind="show" id="V5a-a7-UHp"/>
+                                            </connections>
+                                        </button>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gud-Vc-n8y">
+                                <rect key="frame" x="0.0" y="119" width="414" height="56"/>
+                                <items>
+                                    <navigationItem id="pSv-YY-c1U">
+                                        <nil key="title"/>
+                                        <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="BHZ-kY-6aN">
+                                            <rect key="frame" x="124.5" y="13" width="165" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" title="Get involved and help">
+                                                <color key="titleColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </state>
+                                            <connections>
+                                                <segue destination="3HU-Ey-awN" kind="show" id="joT-tA-W7J"/>
+                                            </connections>
+                                        </button>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Efd-z8-ceL">
+                                <rect key="frame" x="0.0" y="175" width="414" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uAp-3d-kPK">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2500"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Conserv" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g6u-ZD-A9h">
+                                                <rect key="frame" x="126" y="18" width="123" height="40"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="34"/>
+                                                <color key="textColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image from iOS" translatesAutoresizingMaskIntoConstraints="NO" id="DOl-2k-OT3">
+                                                <rect key="frame" x="31" y="79" width="352" height="309"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="woT-Py-AQM">
+                                                <rect key="frame" x="246" y="18" width="39" height="40"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="34"/>
+                                                <color key="textColor" red="0.22887386909999999" green="0.38818607230000002" blue="0.11322258390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F3p-bJ-boD">
+                                                <rect key="frame" x="31" y="453" width="352" height="295"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">With the rise of carbon emissions, climate change and air pollution have been put at an all time high. Though it may seem inevitable that our planet cannot be saved, there’s still so much you can do to help. That’s where our app comes into play. Lack of advertising and information has led to an absence in action and knowledge. More people need to be informed on what they can do to help the planet. We aim to be the app that can help people better comprehend how and what they need to do to help keep our environment healthy.</string>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="18"/>
+                                                <color key="textColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Our app mission statement" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x85-Kw-kg4">
+                                                <rect key="frame" x="71" y="409" width="272" height="36"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="28"/>
+                                                <color key="textColor" red="0.22887386909999999" green="0.38818607230000002" blue="0.11322258390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About the Creators" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="par-MX-fvw">
+                                                <rect key="frame" x="99" y="756" width="197" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="27"/>
+                                                <color key="textColor" red="0.22887386909999999" green="0.38818607230000002" blue="0.11322258390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eeC-BM-KMF">
+                                                <rect key="frame" x="30" y="807" width="353" height="335"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Diya Mahaveer is a seventeen year old girl from Nashua, New Hampshire. She is a rising senior at Nashua High School South and has always held a deep interest into topics surrounding climate change and sustainability akin to her fellow peers with whom she created this app, with the intent of educating people around the world about the importance of conserving and saving our environment. Although she has not had any prior projects to do with the same, Diya practices living an eco–friendly lifestyle in her day–to–day life by recycling and implementing the use of Solar Panels. </string>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="18"/>
+                                                <color key="textColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yWV-hD-6tc">
+                                                <rect key="frame" x="31" y="1163" width="352" height="461"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Paige Dinh is a thirteen year old girl from Orange County, California. She is a rising eighth grader at Fulton Middle School and has always held a deep interest into topics surround climate change and sustainability, just like her fellow peers. Climate change and environmental sustainability have always been a relevant part of her life. Forest fires, air pollution and increasingly rising temperatures have all taken place in her state. She has seen people personally affected by these issues which has compelled her to become more aware of the negative impacts that are taking place in our world and affecting us all. Similarly to Diya, she has not done any previous projects prior related to this issue, however, she has made sustainable swaps and does recycle often within her day–to–day life.</string>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="18"/>
+                                                <color key="textColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PRG-ad-XI0">
+                                                <rect key="frame" x="31" y="1646" width="352" height="365"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">Talia Barsness is a fifteen year old girl from Mount Pleasant, South Carolina. She is a rising sophomore at Academic Magnet and akin to her peers whom she created the app with, she has also always held a deep rooted fascination into topics regarding climate change and sustainability. She has expressed this interest in different manners by working to help create this app and also by developing a website called ‘Climate Collapse’ in order to inform people about different causes that can help different issues regarding climate change. Moreover, like her peers she manages to live an eco–friendly lifestyle by recycling.</mutableString>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="18"/>
+                                                <color key="textColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="13v-jU-IWE">
+                                                <rect key="frame" x="30" y="2019" width="352" height="453"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">Rhea Sharma is an eighteen year old girl from Mumbai, India. She graduated from the International School of London, Qatar where she received her IB Diploma. Currently, she is a rising freshman at Loyola University Chicago. She has always held a deep interest into topics surrounding climate change and sustainability akin to her fellow peers with whom she created this app. In highschool she took part in many sustainability projects such as co–leading her school’s Sustainability Week, participating in her school’s Environment Sustainability Committee named Eco–bee and creating an upcycling workshop for younger children alongside her classmates which was referred to as E^2. Additionally, she attempts to live a sustainable and eco–friendly lifestyle by upcycling.</mutableString>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="18"/>
+                                                <color key="textColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.59999999999999998" green="0.85098039219999999" blue="0.54901960780000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="2500" id="uYh-19-8CC"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="uAp-3d-kPK" firstAttribute="leading" secondItem="Efd-z8-ceL" secondAttribute="leading" id="Xh8-TJ-c9v"/>
+                                    <constraint firstAttribute="trailing" secondItem="uAp-3d-kPK" secondAttribute="trailing" id="ZcZ-B0-DWM"/>
+                                    <constraint firstAttribute="bottom" secondItem="uAp-3d-kPK" secondAttribute="bottom" id="e9F-Wp-dct"/>
+                                    <constraint firstItem="uAp-3d-kPK" firstAttribute="top" secondItem="Efd-z8-ceL" secondAttribute="top" id="yqF-EQ-olf"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="NcC-d8-GKd"/>
+                        <color key="backgroundColor" red="0.59999999999999998" green="0.85098039219999999" blue="0.54901960780000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Gud-Vc-n8y" firstAttribute="top" secondItem="b7x-vP-jL9" secondAttribute="bottom" id="0w0-cc-jea"/>
+                            <constraint firstItem="Gud-Vc-n8y" firstAttribute="trailing" secondItem="b7x-vP-jL9" secondAttribute="trailing" id="3oH-qU-tBn"/>
+                            <constraint firstItem="Efd-z8-ceL" firstAttribute="leading" secondItem="NcC-d8-GKd" secondAttribute="leading" id="5ZY-op-v4i"/>
+                            <constraint firstItem="Gud-Vc-n8y" firstAttribute="trailing" secondItem="25F-gS-XFl" secondAttribute="trailing" id="9Ni-Jl-1ZB"/>
+                            <constraint firstItem="Gud-Vc-n8y" firstAttribute="leading" secondItem="b7x-vP-jL9" secondAttribute="leading" id="JvY-na-kyF"/>
+                            <constraint firstItem="Gud-Vc-n8y" firstAttribute="top" secondItem="eUK-xr-vM2" secondAttribute="top" constant="119" id="Ub9-8Z-nsO"/>
+                            <constraint firstItem="25F-gS-XFl" firstAttribute="centerX" secondItem="eUK-xr-vM2" secondAttribute="centerX" id="VME-jj-gUg"/>
+                            <constraint firstItem="Efd-z8-ceL" firstAttribute="trailing" secondItem="NcC-d8-GKd" secondAttribute="trailing" id="Zqb-LC-HLB"/>
+                            <constraint firstItem="25F-gS-XFl" firstAttribute="leading" secondItem="NcC-d8-GKd" secondAttribute="leading" id="a0Z-PV-67W"/>
+                            <constraint firstItem="Gud-Vc-n8y" firstAttribute="leading" secondItem="25F-gS-XFl" secondAttribute="leading" id="bJ9-JO-Qor"/>
+                            <constraint firstItem="Efd-z8-ceL" firstAttribute="top" secondItem="Gud-Vc-n8y" secondAttribute="bottom" id="bM0-zy-cYb"/>
+                            <constraint firstItem="uAp-3d-kPK" firstAttribute="height" secondItem="eUK-xr-vM2" secondAttribute="height" multiplier="2.96912" id="bXJ-7y-D4g"/>
+                            <constraint firstAttribute="bottom" secondItem="Efd-z8-ceL" secondAttribute="bottom" id="cQy-gw-2zH"/>
+                            <constraint firstItem="uAp-3d-kPK" firstAttribute="width" secondItem="eUK-xr-vM2" secondAttribute="width" id="gcr-jc-Y1n"/>
+                            <constraint firstItem="b7x-vP-jL9" firstAttribute="top" secondItem="25F-gS-XFl" secondAttribute="bottom" id="pU1-LB-bZx"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="skr-Sd-hXL"/>
+                    <size key="freeformSize" width="414" height="896"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zzn-cb-VuT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-207.24637681159422" y="51.5625"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="cr6-y9-BrN">
@@ -1202,12 +1411,12 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="MvV-7M-aoO"/>
+                                    <segue destination="d7C-47-tCx" kind="show" id="6bQ-J4-bFM"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dG9-Df-nnj"/>
-                        <color key="backgroundColor" red="0.46274509800000002" green="0.7843137255" blue="0.57647058819999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.58398045939999998" green="0.83771500509999997" blue="0.53876121619999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="eCV-AT-VSI"/>
                 </viewController>
@@ -1325,8 +1534,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="nOH-Ae-KIa"/>
-        <segue reference="MvV-7M-aoO"/>
+        <segue reference="UnL-l1-gGi"/>
+        <segue reference="l1U-66-YcT"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Image from iOS" width="600" height="600"/>
