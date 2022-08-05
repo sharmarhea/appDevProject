@@ -317,6 +317,9 @@
                                                         <integer key="value" value="20"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <segue destination="gJN-Tg-D6A" kind="show" id="Igi-HW-O9Z"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.32156862749999998" green="0.71372549019999998" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -728,7 +731,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ZUN-Dm-Sdk"/>
+        <segue reference="Igi-HW-O9Z"/>
         <segue reference="K4p-Sd-pT9"/>
     </inferredMetricsTieBreakers>
     <resources>
