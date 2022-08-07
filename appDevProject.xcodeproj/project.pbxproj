@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		078FA620289D7305009E4FF6 /* InfoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078FA61F289D7305009E4FF6 /* InfoPage.swift */; };
+		6E9314D228A035C1008A71C9 /* CarbonFootprintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9314D128A035C1008A71C9 /* CarbonFootprintViewController.swift */; };
 		E1992E2E289D571000EB37DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1992E2D289D571000EB37DC /* AppDelegate.swift */; };
 		E1992E30289D571000EB37DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1992E2F289D571000EB37DC /* SceneDelegate.swift */; };
 		E1992E32289D571000EB37DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1992E31289D571000EB37DC /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		078FA61F289D7305009E4FF6 /* InfoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPage.swift; sourceTree = "<group>"; };
+		6E9314D128A035C1008A71C9 /* CarbonFootprintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbonFootprintViewController.swift; sourceTree = "<group>"; };
 		E1992E2A289D571000EB37DC /* appDevProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appDevProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1992E2D289D571000EB37DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1992E2F289D571000EB37DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				E1992E2F289D571000EB37DC /* SceneDelegate.swift */,
 				E1992E31289D571000EB37DC /* ViewController.swift */,
 				E1992E33289D571100EB37DC /* Main.storyboard */,
+				6E9314D128A035C1008A71C9 /* CarbonFootprintViewController.swift */,
 				078FA61F289D7305009E4FF6 /* InfoPage.swift */,
 				E1992E39289D571800EB37DC /* Assets.xcassets */,
 				E1992E3B289D571800EB37DC /* LaunchScreen.storyboard */,
@@ -265,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				078FA620289D7305009E4FF6 /* InfoPage.swift in Sources */,
+				6E9314D228A035C1008A71C9 /* CarbonFootprintViewController.swift in Sources */,
 				E1992E32289D571000EB37DC /* ViewController.swift in Sources */,
 				E1992E38289D571100EB37DC /* appDevProject.xcdatamodeld in Sources */,
 				E1992E2E289D571000EB37DC /* AppDelegate.swift in Sources */,
